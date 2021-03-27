@@ -1,2 +1,4 @@
 # PGMGAN
-Unsupervised diverse image generation via GANs- partition guided generative adversarial networks 
+Official repository of "Partition-Guided GANs" CVPR 2021.
+
+                🚧  Under construction 🚧
