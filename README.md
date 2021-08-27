@@ -61,6 +61,11 @@ python metrics.py configs/cifar/scan_guide_biggan.yaml --fid --every -1
 ```
 You can also evaluate with other metrics by appending additional flags, such as Inception Score (`--inception`), the number of covered modes + reverse-KL divergence (`--modes`), and cluster metrics (`--cluster_metrics`).
 
+## Pretrained Models
+
+TO BE UPLOADED SOON!
+Appologise for the inconvenience, we lost access to the server where we store the pretrained models. We will be re-running and uploading them soon.
+
 ## Evaluation
 ### Visualizations
 
