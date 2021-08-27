@@ -1,0 +1,13 @@
+*/**/*pyc*
+*/**/.DS_Store
+*/**/*.tar
+.vscode
+output/*
+*pyc
+*.tar.gz
+*.gz
+*.pt
+PyTorch_CIFAR10/*
+data/
+./output/*
+*kmeangan_wkspc*

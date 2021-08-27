@@ -1,0 +1,42 @@
+generator:
+  name: dcgan_deep
+  conditioning: embedding
+  nlabels: 200
+discriminator:
+  name: dcgan_deep
+  nlabels: 200
+  conditioning: mask
+  kwargs:
+    placeholder: None
+z_dist:
+  type: gauss
+  dim: 128
+clusterer:
+  name: scan_guide
+  nimgs: 50000
+  kwargs:
+    k_value: 200
+    model_path: /home/ali/GAN/Unsupervised-Classification/result_iresnet_stl10_k200_2/stl-10/scan/model.pth.tar
+    setup: scan
+    num_heads: 1
+    backbone_name: iresnet
+inherit_from: configs/stl10/default.yaml
+training:
+  out_dir: output/stl10/scan_guide72_dcgan
+  recluster_every: 250000000000000
+  gan_type: hinge
+  optimizer: adam
+  lr_g: 0.0001
+  lr_d: 0.0001
+  beta1: 0.0
+  beta2: 0.999
+  batch_size: 64
+  inception_every: 10000
+  backup_every: 10000
+resnet:
+  weight_guide: 6.0
+  annealing: -0.00006
+  min_weight_guide: 0.0
+
+## Running with 2 times D for every G training iter
+
