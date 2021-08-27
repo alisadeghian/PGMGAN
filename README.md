@@ -61,14 +61,6 @@ python metrics.py configs/cifar/scan_guide_biggan.yaml --fid --every -1
 ```
 You can also evaluate with other metrics by appending additional flags, such as Inception Score (`--inception`), the number of covered modes + reverse-KL divergence (`--modes`), and cluster metrics (`--cluster_metrics`).
 
-## Pretrained Models
-
-You can load and evaluate pretrained models on ImageNet and Places. If you have access to ImageNet or Places directories, first fill in paths to your ImageNet and/or Places dataset directories in `configs/imagenet/default.yaml` and `configs/places/default.yaml` respectively. You can use the following config files with the evaluation scripts, and the code will automatically download the appropriate models.
-
-```bash
-configs/pretrained/cifar/scan_guide_biggan.yaml
-```
-
 ## Evaluation
 ### Visualizations
 
