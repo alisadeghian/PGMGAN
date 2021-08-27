@@ -91,27 +91,6 @@ python metrics.py config-file
 ```
 with the appropriate flags compute the FID (`--fid`), FSD (`--fsd`), IS (`--inception`), number of modes covered/ reverse-KL divergence (`--modes`) and clustering metrics (`--cluster_metrics`) for each of the checkpoints.
 
-## Training models
-To train a model, set up a configuration file (examples in `/configs`), and run
-```bash
-python train.py config-file
-```
-
-An example config of self-conditioned GAN on ImageNet is `config/imagenet/selfcondgan.yaml` and on Places is `config/places/selfcondgan.yaml`.
-
-Some models may be too large to fit on one GPU, so you may want to add `--devices DEVICE_NUMBERS` as an additional flag to do multi GPU training.
-
-## 2D-experiments
-For synthetic dataset experiments, first go into the `2d_mix` directory.
-
-To train a self-conditioned GAN on the 2D-ring and 2D-grid dataset, run
-```bash
-python train.py --clusterer selfcondgan --data_type ring
-python train.py --clusterer selfcondgan --data_type grid
-```
-You can test several other configurations via the command line arguments.
-
-
 ## Acknowledgments
 This code is heavily based on the [GAN-stability](https://github.com/LMescheder/GAN_stability) and [self-cond-gan](https://github.com/stevliu/self-conditioned-gan) code bases.
 Our FSD code is taken from the [GANseeing](https://github.com/davidbau/ganseeing) work.
