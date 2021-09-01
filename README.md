@@ -76,7 +76,7 @@ python visualize_clusters.py config-file
 You can set the flag `--show_clusters` to also visualize the real inferred clusters, but this requires that you have a path to training set images.
 
 ### Metrics
-To obtain generation metrics, fill in paths to your ImageNet or Places dataset directories in `utils/get_gt_imgs.py` and then run
+To obtain generation metrics, fill in the path to your ImageNet or Places dataset directories in `utils/get_gt_imgs.py` and then run
 ```bash
 python utils/get_gt_imgs.py --imagenet --places
 ```
