@@ -1,6 +1,6 @@
 # Partition-Guided GANs
 
-**Partition-Guided GANs** [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Armandpour_Partition-Guided_GANs_CVPR_2021_paper.html) |  [Arxiv](https://arxiv.org/abs/2104.00816)<br>
+**Partition-Guided GANs** [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Armandpour_Partition-Guided_GANs_CVPR_2021_paper.html) |  [Arxiv](https://arxiv.org/abs/2104.00816)| [Video link](https://www.youtube.com/watch?v=thbZCPxWBUg&ab_channel=MohammadRezaArmandpour) <br>
 [Mohammad Reza Armandpour* ](https://web.stat.tamu.edu/~armand/),
 [Ali Sadeghian* ](https://scholar.google.se/citations?user=0asq4zoAAAAJ&hl=en),
 [Chunyuan Li](http://chunyuan.li/),
@@ -83,7 +83,7 @@ python visualize_clusters.py config-file
 You can set the flag `--show_clusters` to also visualize the real inferred clusters, but this requires that you have a path to training set images.
 
 ### Metrics
-To obtain generation metrics, fill in paths to your ImageNet or Places dataset directories in `utils/get_gt_imgs.py` and then run
+To obtain generation metrics, fill in the path to your ImageNet or Places dataset directories in `utils/get_gt_imgs.py` and then run
 ```bash
 python utils/get_gt_imgs.py --imagenet --places
 ```
