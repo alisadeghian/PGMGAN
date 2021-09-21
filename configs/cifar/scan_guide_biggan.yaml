@@ -94,7 +94,7 @@ clusterer:
     backbone_name: iresnet
 inherit_from: configs/cifar/default.yaml
 training:
-  out_dir: output/cifar/scan_guide89_biggan
+  out_dir: output/cifar/scan_guide_biggan
   gan_type: hinge
   optimizer: adam
   lr_g: 0.0002

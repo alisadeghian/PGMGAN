@@ -63,8 +63,15 @@ You can also evaluate with other metrics by appending additional flags, such as 
 
 ## Pretrained Models
 
-TO BE UPLOADED SOON!
-Appologise for the inconvenience, we lost access to the server where we store the pretrained models. We will be re-running and uploading them soon.
+Appologise for the inconvenience, we lost access to the server where we store the pretrained models. We will be re-running and uploading them soon. EDIT: CIFAR results added.
+
+You can download pretrained models on CIFAR from [here](https://drive.google.com/drive/folders/1lsZKU6T0H91ThW_lCpsEJNGg0rTYGBcY?usp=sharing) and place them in the `output/cifar/scan_guide_biggan/chkpts/` directory.
+
+To reproduce the results in the paper using:
+
+```bash
+python metrics.py configs/cifar/scan_guide_biggan.yaml --fid --every -1
+```
 
 ## Evaluation
 ### Visualizations
