@@ -1,6 +1,6 @@
 # Partition-Guided GANs
 
-**Partition-Guided GANs** [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Armandpour_Partition-Guided_GANs_CVPR_2021_paper.html) |  [Arxiv](https://arxiv.org/abs/2104.00816)| [Video link](https://www.youtube.com/watch?v=thbZCPxWBUg&ab_channel=MohammadRezaArmandpour) <br>
+**Partition-Guided GANs** [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Armandpour_Partition-Guided_GANs_CVPR_2021_paper.html) |  [Arxiv](https://arxiv.org/abs/2104.00816) | [Video link](https://www.youtube.com/watch?v=thbZCPxWBUg&ab_channel=MohammadRezaArmandpour) <br>
 [Mohammad Reza Armandpour* ](https://web.stat.tamu.edu/~armand/),
 [Ali Sadeghian* ](https://scholar.google.se/citations?user=0asq4zoAAAAJ&hl=en),
 [Chunyuan Li](http://chunyuan.li/),
